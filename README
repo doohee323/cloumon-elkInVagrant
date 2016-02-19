@@ -1,0 +1,11 @@
+# run vagrant
+vagrant destroy -f && vagrant up
+
+# install applications
+nginx
+
+# service flow 
+	nginx
+		http://192.168.82.170:8080
+		/var/log/nginx/access.log
+
